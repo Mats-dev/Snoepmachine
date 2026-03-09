@@ -1,8 +1,8 @@
-# 🍬 Secret Knock Candy Dispenser (Opendeurdag Editie)
+# Secret Knock Candy Dispenser (Opendeurdag Editie)
 
 Een interactieve snoepautomaat die reageert op ritmische klappen of tikken. Speciaal ontworpen voor de opendeurdag met live Bluetooth-monitoring en een ingebouwde snoepjes-teller.
 
-## 🚀 Hoofdfuncties
+## Hoofdfuncties
 
 - **Ritmische Activatie**: Werkt met de KY-037 microfoon module (3 klappen/tikken).
 - **Trillingsgevoelig**: Dankzij de gevoelige analoge uitlezing werkt het zelfs door 17mm dik hout!
@@ -11,7 +11,7 @@ Een interactieve snoepautomaat die reageert op ritmische klappen of tikken. Spec
 - **Auto-Cooldown**: Een 10-seconden pauze na elk snoepje om misbruik te voorkomen.
 - **Multi-Board Support**: Werkt op Uno R4 WiFi, ESP32, Nano, en meer (via PlatformIO).
 
-## 🛠️ Hardware Setup
+## Hardware Setup
 
 - **Microcontroller**: Arduino Uno R4 WiFi (of ESP32/Nano).
 - **Sensing**: KY-037 Microphone Module (**Pin A0**).
@@ -22,7 +22,7 @@ Een interactieve snoepautomaat die reageert op ritmische klappen of tikken. Spec
   - Groene LED (**Pin 4**): Succes-modus.
   - Rode LED (**Pin 6**): Fout / Cooldown.
 
-## 📱 App & Monitoring
+## App & Monitoring
 
 Je kunt de automaat volgen via Bluetooth Low Energy (BLE).
 
@@ -30,7 +30,7 @@ Je kunt de automaat volgen via Bluetooth Low Energy (BLE).
 - **Kenmerken**: Live status updates en een actuele snoepjes-teller.
 - **Flutter App**: De API-specificaties voor een eigen app vind je in de `brain` map.
 
-## 💻 Installatie
+## Installatie
 
 Dit project maakt gebruik van **PlatformIO**.
 
